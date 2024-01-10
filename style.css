@@ -1,0 +1,42 @@
+html{
+    /* this is comment */
+    background-color: black;
+    color: white;
+    /* border-style: dotted; */
+    /* border-color: aliceblue; */
+}
+
+body{
+    margin: 0;
+}
+
+/* make it goes inside of the container */
+div{
+    box-sizing: border-box;
+}
+
+#navbar{
+    height: 50px;
+
+}
+
+/* #flex is making it into two containers as array */
+#flex{
+    display: flex;
+    height: calc(100vh - 50px);
+}
+
+#sidebar{
+    width:30%
+}
+
+#mainbar{
+    width:70%
+}
+
+.container{
+    border-style: dotted;
+    border-color: aliceblue;
+    border-width: 1px;
+
+}
